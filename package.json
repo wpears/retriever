@@ -1,0 +1,33 @@
+{
+  "name": "retriever",
+  "version": "0.0.1",
+  "description": "Retrieve public address data",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wpears/retriever.git"
+  },
+  "keywords": [
+    "address",
+    "point",
+    "request",
+    "geocode"
+  ],
+  "author": "Wyatt Pearsall <wyatt.pearsall@cfpb.gov>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wpears/retriever/issues"
+  },
+  "homepage": "https://github.com/wpears/retriever",
+  "dependencies": {
+    "aws-sdk": "^2.1.21",
+    "commander": "^2.7.1",
+    "request": "^2.54.0"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0"
+  }
+}
