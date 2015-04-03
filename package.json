@@ -25,6 +25,7 @@
   "dependencies": {
     "aws-sdk": "^2.1.21",
     "commander": "^2.7.1",
+    "duplex-child-process": "0.0.5",
     "readable-stream": "^1.0.33",
     "request": "^2.54.0"
   },
