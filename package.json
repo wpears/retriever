@@ -2,7 +2,7 @@
   "name": "retriever",
   "version": "0.0.1",
   "description": "Retrieve public address data",
-  "main": "index.js",
+  "main": "retriever.js",
   "scripts": {
     "test": "node test/test.js"
   },
@@ -25,6 +25,7 @@
   "dependencies": {
     "aws-sdk": "^2.1.21",
     "commander": "^2.7.1",
+    "readable-stream": "^1.0.33",
     "request": "^2.54.0"
   },
   "devDependencies": {
